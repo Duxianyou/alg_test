@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.106
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ConstructorFunction", "ConstructorFunction\ConstructorFunction.vcxproj", "{245D3391-39D7-4CBB-96F2-FFF16CD3DC47}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Win32Project1", "Win32Project1\Win32Project1.vcxproj", "{F0E1970A-5F99-4A76-8339-154A191D322A}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BoolTest", "BoolTest\BoolTest.vcxproj", "{7CA2D1CE-0DCD-461F-93A8-055F3BF746B5}"
 EndProject
@@ -49,6 +51,16 @@ Global
 		{245D3391-39D7-4CBB-96F2-FFF16CD3DC47}.Release|Mixed Platforms.Build.0 = Release|Win32
 		{245D3391-39D7-4CBB-96F2-FFF16CD3DC47}.Release|Win32.ActiveCfg = Release|Win32
 		{245D3391-39D7-4CBB-96F2-FFF16CD3DC47}.Release|Win32.Build.0 = Release|Win32
+		{F0E1970A-5F99-4A76-8339-154A191D322A}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{F0E1970A-5F99-4A76-8339-154A191D322A}.Debug|Mixed Platforms.ActiveCfg = Debug|Win32
+		{F0E1970A-5F99-4A76-8339-154A191D322A}.Debug|Mixed Platforms.Build.0 = Debug|Win32
+		{F0E1970A-5F99-4A76-8339-154A191D322A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F0E1970A-5F99-4A76-8339-154A191D322A}.Debug|Win32.Build.0 = Debug|Win32
+		{F0E1970A-5F99-4A76-8339-154A191D322A}.Release|Any CPU.ActiveCfg = Release|Win32
+		{F0E1970A-5F99-4A76-8339-154A191D322A}.Release|Mixed Platforms.ActiveCfg = Release|Win32
+		{F0E1970A-5F99-4A76-8339-154A191D322A}.Release|Mixed Platforms.Build.0 = Release|Win32
+		{F0E1970A-5F99-4A76-8339-154A191D322A}.Release|Win32.ActiveCfg = Release|Win32
+		{F0E1970A-5F99-4A76-8339-154A191D322A}.Release|Win32.Build.0 = Release|Win32
 		{7CA2D1CE-0DCD-461F-93A8-055F3BF746B5}.Debug|Any CPU.ActiveCfg = Debug|Win32
 		{7CA2D1CE-0DCD-461F-93A8-055F3BF746B5}.Debug|Mixed Platforms.ActiveCfg = Debug|Win32
 		{7CA2D1CE-0DCD-461F-93A8-055F3BF746B5}.Debug|Mixed Platforms.Build.0 = Debug|Win32
@@ -172,8 +184,5 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {D71B7A46-B4B1-4F58-AF24-520284416B6A}
 	EndGlobalSection
 EndGlobal
