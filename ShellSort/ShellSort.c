@@ -32,6 +32,8 @@ void ShellSort(int A[], int n)
 	}
 }
 
+
+
 void ShellSort2(int iArray[], int n)
 {
 	int iGap = 3;
@@ -63,7 +65,7 @@ void ShellSort2(int iArray[], int n)
 
 int main()
 {
-	int A[] = { 5, 2, 9, 4, 7, 6, 1, 3, 8 };// 从小到大希尔排序
+	int A[] = { 5, 2, 9, 4, 7, 6, 1, 3, 8, 9};// 从小到大希尔排序
 	int n = sizeof(A) / sizeof(int);
 	ShellSort2(A, n);
 	printf("The shell sort result is ");
