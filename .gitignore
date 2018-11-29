@@ -29,6 +29,8 @@ bld/
 
 *.sln
 *.vcxproj
+*.suo
+*.sdf
 
 # Visual Studio 2015/2017 cache/options directory
 .vs/
